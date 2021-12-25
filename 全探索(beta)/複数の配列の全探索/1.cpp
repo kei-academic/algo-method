@@ -55,9 +55,7 @@ int main(void) {
     ll count = 0;
     rep(i, n) {
         rep(j, m) {
-            if (a.at(i) > b.at(j)) {
-                count++;
-            }
+            count += (a.at(i) > b.at(j));
         }
     }
 
