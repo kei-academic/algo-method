@@ -48,7 +48,7 @@ int main(void) {
         cin >> a.at(i);
     }
     vl b(m);
-    rep(i, n) {
+    rep(i, m) {
         cin >> b.at(i);
     }
 
