@@ -20,14 +20,14 @@ int main(void) {
         cin >> arr.at(i);
     }
 
-    bool frag = false;
+    bool flag = false;
     rep(i, n) {
         if (arr.at(i) == v) {
-            frag = true;
+            flag = true;
         }
     }
 
-    cout << (frag ? "Yes" : "No") << endl;
+    cout << (flag ? "Yes" : "No") << endl;
 
     return 0;
 }
