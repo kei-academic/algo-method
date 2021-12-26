@@ -43,7 +43,7 @@ int main(void) {
     string s;
     cin >> s;
 
-    cout << s.at(3) << endl;
+    cout << s.at(2) << endl;
 
     return 0;
 }
