@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "random": "cpp"
+        "random": "cpp",
+        "memory": "cpp",
+        "regex": "cpp",
+        "span": "cpp",
+        "utility": "cpp",
+        "type_traits": "cpp"
     }
 }
