@@ -5,6 +5,8 @@
         "regex": "cpp",
         "span": "cpp",
         "utility": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "__config": "cpp",
+        "__nullptr": "cpp"
     }
 }
