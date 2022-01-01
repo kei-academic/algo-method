@@ -73,6 +73,13 @@ ll lcm_(T &a, const T& b) {return a / gcd(a, b) * b;}
 //-----------------------------------------------------------------
 void solve() {
     print(0b100);
+
+    // with to_ulong()
+    /*
+    int n = 0b100;
+    bitset<4>c(n);
+    print(c.to_ulong());
+    */
 }
 
 
