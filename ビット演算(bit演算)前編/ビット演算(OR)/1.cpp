@@ -69,7 +69,7 @@ template <typename T>
 inline ll lcm_(T &a, const T& b) {return a / gcd(a, b) * b;}
 //-----------------------------------------------------------------
 void solve() {
-    print(bitset<5>(0b10001 | 0b00101));
+    print(bitset<5>(0b10001 & 0b00101))
 }
 
 
