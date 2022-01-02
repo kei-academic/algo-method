@@ -73,8 +73,7 @@ void solve() {
     cin >> s;
 
     regex reg{R"(algo)"};
-    smatch m;
-    YesNo(regex_search(s, m, reg));
+    YesNo(regex_search(s, reg));
 }
 
 
