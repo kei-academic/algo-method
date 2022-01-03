@@ -8,6 +8,7 @@
         "type_traits": "cpp",
         "__config": "cpp",
         "__nullptr": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "*.tcc": "cpp"
     }
 }
